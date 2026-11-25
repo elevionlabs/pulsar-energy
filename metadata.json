@@ -1,0 +1,6 @@
+{
+  "name": "Pulsar Energy",
+  "description": "Engenharia para reduzir custos e aumentar a eficiência da sua empresa. Eficiência energética, automação SCADA e projetos solares para indústrias.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

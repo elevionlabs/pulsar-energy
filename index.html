@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Pulsar Energy — Engenharia de Eficiência Energética & Automação Industrial</title>
+    <meta name="description" content="Engenharia para reduzir custos e aumentar a eficiência da sua empresa. Soluções de eficiência energética, automação SCADA e energia solar para médias e grandes indústrias." />
+    <meta property="og:title" content="Pulsar Energy — Engenharia de Eficiência Energética & Automação Industrial" />
+    <meta property="og:description" content="Engenharia para reduzir custos e aumentar a eficiência da sua empresa. Soluções de eficiência energética, automação SCADA e energia solar para médias e grandes indústrias." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+
+    <!-- Guarantee initial load always starts at top (0,0) and clears leftover hashes -->
+    <script>
+      try {
+        if ('scrollRestoration' in history) {
+          history.scrollRestoration = 'manual';
+        }
+        window.scrollTo(0, 0);
+        if (window.location.hash) {
+          history.replaceState(null, '', window.location.pathname + window.location.search);
+        }
+      } catch (e) {}
+    </script>
+  </head>
+  <body class="bg-[#050505] text-[#F7F7F7] antialiased selection:bg-[#C61F37] selection:text-white overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
